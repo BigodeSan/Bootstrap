@@ -1,0 +1,90 @@
+/* css personalizado */
+
+*{
+    font-family: 'Sansita', sans-serif;
+}
+
+body {
+    padding-top: 80px;
+}
+
+section {
+    padding: 45px;
+    padding-bottom: 15px;
+    min-height: 100vh;
+}
+
+.navbar{
+    background: yellow;
+    padding: 15px;
+}
+
+.navbar-nav {
+    font-weight: 500;
+}
+
+.navbar-brand {
+    padding: inherit;
+}
+
+#brand-image{
+    width: 250px;
+    height: 100%;
+    padding: 0px;
+}
+
+.dropdown-menu{
+    background-color: yellow;
+}
+
+.divslider {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("../img/bgslider.png");
+}
+
+.pijamas_item *{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.pijamas_item p {
+    font-size: 20px;
+}
+
+.pij_backgroundcolor {
+    background-color: azure;
+}
+
+.contato textarea {
+    height: 170px;
+}
+
+.contato .aviso {
+    padding: 15px;
+    font-size: 16px;
+}
+
+.contato .tel {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: antiquewhite;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.linha {
+    padding: 20px;
+}
+
+.send {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+}
