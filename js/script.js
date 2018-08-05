@@ -1,4 +1,4 @@
- $(function($){
+$(function($){
 
 	$("form").submit(function(event) {
 
@@ -22,6 +22,7 @@
             $("#send > .alert-success").append('</div>');
             
             $('#form').trigger("reset");
+            
 		}).fail(function(){
 			$("#send").html("<div class='alert alert-danger'>");
             $("#send > .alert-danger").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
@@ -30,6 +31,7 @@
             $("#send > .alert-danger").append('</div>');
             
             $('#form').trigger("reset");
+            
 		});
 	});
 
