@@ -5,7 +5,7 @@ $(function($){
 		event.preventDefault();
 
 		$.ajax({
-	    url: "https://formspree.io/claudomiromonteiro@gmail.com", 
+	    url: "https://formspree.io/sensualmdintima@gmail.com", 
 	    method: "POST",
 	    data: {
 	    	nome: $("#nome").val(),
@@ -27,7 +27,7 @@ $(function($){
 			$("#send").html("<div class='alert alert-danger'>");
             $("#send > .alert-danger").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             .append("</button>");
-            $("#send > .alert-danger").append($("<strong>").text("Desculpe, não foi possivel enviar seu email. Tente mais tarde!"));
+            $("#send > .alert-danger").append($("<strong>").text("Desculpe, não foi possivel enviar seu email. Tente mais tarde!!!"));
             $("#send > .alert-danger").append('</div>');
             
             $('#form').trigger("reset");
