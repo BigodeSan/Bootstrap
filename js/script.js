@@ -4,8 +4,8 @@ $(function($){
 
 		event.preventDefault();
 
-		$.ajax({
-	    url: "https://formspree.io/gabrieldamasio097@gmail.com", 
+	$.ajax({
+	    url:'https://formspree.io/sensualmdintima@gmail.com', 
 	    method: "POST",
 	    data: {
 	    	nome: $("#nome").val(),
@@ -13,7 +13,10 @@ $(function($){
 	    	telefone: $("#telefone").val(),
             	mensagem: $("#mensagem").val()
 	    },
-	    dataType: "json"
+	    dataType: "json",
+		beforeSend: function() {
+			$("#form").append('<div class="alert alert--loading">Sending message…</div>');
+		},
 		}).done(function(){
 			$("#send").html("<div class='alert alert-success'>");
             $("#send > .alert-success").html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
